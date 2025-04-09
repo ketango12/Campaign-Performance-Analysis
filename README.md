@@ -9,15 +9,24 @@ The goal is to identify success factors that can be leveraged to enhance future 
 
 # Dataset
 
-| Column Name         | Description                                      |
-|---------------------|--------------------------------------------------|
-| Campaign_ID         | Unique identifier for each campaign              |
-| Channel             | Marketing channel used (e.g., Email, Social)     |
-| Conversion_Rate     | Percentage of users who converted                |
-| Acquisition_Cost    | Cost to acquire a customer through the campaign  |
-| ROI                 | Return on Investment for the campaign            |
-| Language            | Language of the campaign                         |
-| Region              | Geographic target of the campaign                |
+|     Column Name     |                          Description                           |
+|:-------------------:|:--------------------------------------------------------------:|
+|    Campaign_ID      | Unique identifier for each campaign.                           |
+|      Company        | The company responsible for the campaign (fictional brands).   |
+|   Campaign_Type     | Type of campaign (email, social media, influencer, etc.).      |
+|  Target_Audience    | Audience segment targeted (e.g., women 25-34, men 18-24).       |
+|      Duration       | Campaign duration in days.                                     |
+|   Channels_Used     | Promotional channels used (email, YouTube, social media, etc.).|
+|  Conversion_Rate    | % of leads/impressions that converted into desired actions.    |
+| Acquisition_Cost    | Cost to acquire a customer (in monetary format).               |
+|         ROI         | Return on Investment representing campaign profitability.      |
+|      Location       | City where campaign was run (e.g., NY, LA, Miami, etc.).       |
+|      Language       | Campaign language (English, Spanish, French, etc.).            |
+|       Clicks        | Number of clicks indicating user engagement.                   |
+|     Impressions     | Total times campaign was displayed/viewed.                     |
+|  Engagement_Score   | Score (1–10) measuring campaign engagement.                    |
+| Customer_Segment    | Targeted customer segment (e.g., foodies, tech enthusiasts).   |
+|        Date         | Date of campaign to analyze temporal trends.                   |
 
 # Libraries Used
 * Python (Pandas, NumPy, Matplotlib & Seaborn)
