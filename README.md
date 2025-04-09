@@ -7,6 +7,18 @@ This project analyzes digital marketing campaigns to optimize ROI and overall pe
 
 The goal is to identify success factors that can be leveraged to enhance future marketing strategies.
 
+# Dataset
+
+| Column Name         | Description                                      |
+|---------------------|--------------------------------------------------|
+| Campaign_ID         | Unique identifier for each campaign              |
+| Channel             | Marketing channel used (e.g., Email, Social)     |
+| Conversion_Rate     | Percentage of users who converted                |
+| Acquisition_Cost    | Cost to acquire a customer through the campaign  |
+| ROI                 | Return on Investment for the campaign            |
+| Language            | Language of the campaign                         |
+| Region              | Geographic target of the campaign                |
+
 # Libraries Used
 * Python (Pandas, NumPy, Matplotlib & Seaborn)
 
